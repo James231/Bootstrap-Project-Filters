@@ -1,7 +1,3 @@
-function buttonClick() {
-    alert("pressed");
-}
-
 function BadgePressed() {
     $("a#" + this.id).toggleClass("down");
 
